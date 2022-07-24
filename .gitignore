@@ -1,0 +1,12 @@
+# running doc
+docs/
+
+# training log
+log/
+model/training/
+
+# custom config
+.vscode/
+
+# compile temp file
+*__pycache__
