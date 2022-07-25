@@ -8,22 +8,13 @@ The official implementation of paper "Deep Weighted Guided Upsampling Network fo
 
 ![Results of DWGUN with various focuses. From the top to the bottom row are the ground truths, our results, and the results of TTSR, respectively.](figure/ComparisonWithSOTA.png)
 
-![Ground Truth](figure/CS/GT.png)
-![DWGUN](figure/CS/DWGUN.png)
-![SRNTT](figure/CS/SRNTT.png)
-![TTSR](figure/CS/TTSR.png)
+![Ground Truth](figure/CS/GT.png)![DWGUN](figure/CS/DWGUN.png)![SRNTT](figure/CS/SRNTT.png)![TTSR](figure/CS/TTSR.png)
 
 ### Other Qualitative Comparisons
 
-![GT](figure/LR/GT.png)
-![DWGUN](figure/LR/DWGUN.png)
-![Bilinear](figure/LR/Bilinear.png)
-![DGU](figure/LR/DGU.png)
-![DRNS](figure/LR/DRNS.png)
-![GGU](figure/LR/GGU.png)
-![GIU](figure/LR/GIU.png)
-![JBU](figure/LR/JBU.png)
-![WGU](figure/LR/WGU.png)
+![GT](figure/LR/GT.png)![DWGUN](figure/LR/DWGUN.png)![Bilinear](figure/LR/Bilinear.png)
+![DGU](figure/LR/DGU.png)![DRNS](figure/LR/DRNS.png)![GGU](figure/LR/GGU.png)
+![GIU](figure/LR/GIU.png)![JBU](figure/LR/JBU.png)![WGU](figure/LR/WGU.png)
 
 ### Additional Quantitative Results
 
@@ -78,14 +69,11 @@ skimage==0.0
 
 Several image pairs in dataset are shown below:
 
-![Input (GT) in Training Dataset](figure/378RFGT.png)
-![Guidance (GT) in Training Dataset](figure/378FFGT.png)
+![Input (GT) in Training Dataset](figure/378RFGT.png)![Guidance (GT) in Training Dataset](figure/378FFGT.png)
 
-![Input (GT) in Testing Dataset](figure/24RFGT.png)
-![Guidance (GT) in Testing Dataset](figure/24FFGT.png)
+![Input (GT) in Testing Dataset](figure/24RFGT.png)![Guidance (GT) in Testing Dataset](figure/24FFGT.png)
 
-![Input (GT) in Additional Dataset](figure/15RFGT.png)
-![Guidance (GT) in Additional Dataset](figure/15FFGT.png)
+![Input (GT) in Additional Dataset](figure/15RFGT.png)![Guidance (GT) in Additional Dataset](figure/15FFGT.png)
 
 [Baidu](https://pan.baidu.com/s/1Ap6fUxGO0OcIXTmDjPmOWg?pwd=4ca5), code: 4ca5\\
 [Google](https://drive.google.com/file/d/1z6ZD4L3Sx6vaOLbGg6yE3HWALYhjt7zp/view?usp=sharing)
