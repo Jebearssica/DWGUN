@@ -6,34 +6,50 @@ The official implementation of paper "Deep Weighted Guided Upsampling Network fo
 
 ### Qualitative Comparisons with SOTA methods
 
-![Results of DWGUN with various focuses. From the top to the bottom row are the ground truths, our results, and the results of TTSR, respectively.](figure/ComparisonWithSOTA.png)
+<center><img src="figure/ComparisonWithSOTA.png" width="1400">Results of DWGUN with various focuses. From the top to the bottom row are the ground truths, our results, and the results of TTSR, respectively. </center>
+
+More Comparisons:
 
 <table>
     <tr>
-        <td><center><img src="figure/CS/GT.png" width="120">Ground Truth </center></td>
-    </tr>
-    <tr>
-        <td><center><img src="figure/CS/DWGUN.png" width="120">DWGUN </center></td>
-    </tr>
-    <tr>
-        <td><center><img src="figure/CS/SRNTT.png" width="120">SRNTT </center></td>
-    </tr>
-    <tr>
-        <td><center><img src="figure/CS/TTSR.png" width="120">TTSR </center></td>
+        <td><center><img src="figure/CS/GT.png" width="475">Ground Truth</center></td>
+        <td><center><img src="figure/CS/DWGUN.png" width="475">DWGUN</center></td>
+        <td><center><img src="figure/CS/SRNTT.png" width="475">SRNTT</center></td>
+        <td><center><img src="figure/CS/TTSR.png" width="475">TTSR</center></td>
     </tr>
 </table>
 
 ### Other Qualitative Comparisons
 
-<center><img src="figure/LR/GT.png" width="400">Ground Truth </center>
-<center><img src="figure/LR/DWGUN.png" width="400">DWGUN </center>
-<center><img src="figure/LR/Bilinear.png" width="400">Bilinear </center>
-<center><img src="figure/LR/DGU.png" width="400">DGU </center>
-<center><img src="figure/LR/DRNS.png" width="400">DRNS </center>
-<center><img src="figure/LR/GGU.png" width="400">GGU </center>
-<center><img src="figure/LR/GIU.png" width="400">GIU </center>
-<center><img src="figure/LR/JBU.png" width="400">JBU </center>
-<center><img src="figure/LR/WGU.png" width="400">WGU </center>
+<table>
+    <tr>
+        <td><center><img src="figure/LR/GT.png" width="1400">Ground Truth </center></td>
+    </tr>
+    <tr>
+        <td><center><img src="figure/LR/DWGUN.png" width="1400">DWGUN </center></td>
+    </tr>
+    <tr>
+        <td><center><img src="figure/LR/Bilinear.png" width="1400">Bilinear </center></td>
+    </tr>
+    <tr>
+        <td><center><img src="figure/LR/DGU.png" width="1400">DGU </center></td>
+    </tr>
+    <tr>
+        <td><center><img src="figure/LR/DRNS.png" width="1400">DRNS </center></td>
+    </tr>
+    <tr>
+        <td><center><img src="figure/LR/GGU.png" width="1400">GGU </center></td>
+    </tr>
+    <tr>
+        <td><center><img src="figure/LR/GIU.png" width="1400">GIU </center></td>
+    </tr>
+    <tr>
+        <td><center><img src="figure/LR/JBU.png" width="1400">JBU </center></td>
+    </tr>
+    <tr>
+        <td><center><img src="figure/LR/WGU.png" width="1400">WGU </center></td>
+    </tr>
+</table>
 
 ### Additional Quantitative Results
 
@@ -90,28 +106,22 @@ Several image pairs in dataset are shown below:
 
 <table>
     <tr>
-        <td><center><img src="figure/378RFGT.png" width="200">Input (GT) in Training Dataset </center></td>
-    </tr>
-    <tr>
-        <td><center><img src="figure/378FFGT.png" width="200">Guidance (GT) in Training Dataset </center></td>
+        <td><center><img src="figure/378RFGT.png" width="660">Input (GT) in Training Dataset</center></td>
+        <td><center><img src="figure/378FFGT.png" width="660">Guidance (GT) in Training Dataset</center></td>
     </tr>
 </table>
 
 <table>
     <tr>
-        <td><center><img src="figure/24RFGT.png" width="200">Input (GT) in Testing Dataset </center></td>
-    </tr>
-    <tr>
-        <td><center><img src="figure/24FFGT.png" width="200">Guidance (GT) in Testing Dataset </center></td>
+        <td><center><img src="figure/24RFGT.png" width="660">Input (GT) in Testing Dataset </center></td>
+        <td><center><img src="figure/24FFGT.png" width="660">Guidance (GT) in Testing Dataset </center></td>
     </tr>
 </table>
 
 <table>
     <tr>
-        <td><center><img src="figure/15RFGT.png" width="200">Input (GT) in Additional Dataset </center></td>
-    </tr>
-    <tr>
-        <td><center><img src="figure/15FFGT.png" width="200">Guidance (GT) in Additional Dataset </center></td>
+        <td><center><img src="figure/15RFGT.png" width="660">Input (GT) in Additional Dataset </center></td>
+        <td><center><img src="figure/15FFGT.png" width="660">Guidance (GT) in Additional Dataset </center></td>
     </tr>
 </table>
 
