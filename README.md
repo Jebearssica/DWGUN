@@ -1,6 +1,6 @@
 # Deep-Weighted-Guided-Upsampling-Network-for-Depth-of-Field-Image-Upsampling
 
-The official implementation of paper "Deep Weighted Guided Upsampling Network for Depth of Field Image Upsampling"
+The official implementation of paper "Deep Weighted Guided Upsampling Network for Depth of Field Image Upsampling". This paper has been published in ACMMM Asia 2022. You can download the paper from the [link](https://dl.acm.org/doi/10.1145/3551626.3564940)
 
 ## Supplementary Material
 
