@@ -154,3 +154,25 @@ In `test.py`, you can use `testAllInOne` to test x2/x4/x8 for both shallow & dee
 ## Other
 
 If you have any question, please leave an issue.
+
+## Citation
+
+```bitex
+@inproceedings{10.1145/3551626.3564940,
+author = {Zeng, Lanling and Wu, Lianxiong and Yang, Yang and Shen, Xiangjun and Zhan, Yongzhao},
+title = {Deep Weighted Guided Upsampling Network for Depth of Field Image Upsampling},
+year = {2022},
+isbn = {9781450394789},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3551626.3564940},
+doi = {10.1145/3551626.3564940},
+abstract = {Depth-of-field (DoF) rendering is an important technique in computational photography that simulates the human visual attention system. Existing DoF rendering methods usually suffer from a high computational cost. The task of DoF rendering can be accelerated by guided upsampling methods. However, the state-of-the-art guided upsampling methods fail to distinguish the focus and defocus areas, resulting in unsatisfying DoF effects. In this paper, we propose a novel deep weighted guided upsampling network (DWGUN) based on a encoder and decoder framework to jointly upsample the low-resolution DoF image under the guidance of the corresponding high-resolution all-in-focus image. Due to the intuitive weight design, the traditional weighted image upsampling is not tailored to DoF image upsampling. We propose a deep refocus-defocus edge-aware module (DREAM) to learn the spatially-varying weights and embed them in the deep weighted guided upsampling block (DWGUB). We have conducted comprehensive experiments to evaluate the proposed method. Rigorous ablation studies are also conducted to validate the rationality of the proposed components.},
+booktitle = {Proceedings of the 4th ACM International Conference on Multimedia in Asia},
+articleno = {18},
+numpages = {7},
+keywords = {image upsampling, deep learning, graphics, computational photography},
+location = {Tokyo, Japan},
+series = {MMAsia '22}
+}
+```
